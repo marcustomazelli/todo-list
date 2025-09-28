@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme{
+    --font-display: "Google Sans Code", monospace;
+    --font-h1: "Pixelify Sans", sans-serif;
+}
